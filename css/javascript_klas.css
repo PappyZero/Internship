@@ -1,0 +1,105 @@
+#mousehover {
+    margin-left: 800px;
+    width: 130px;
+    height: 50px;
+    color: black;
+    background-color: pink;
+}
+
+#one {
+    margin-left: 1000px;
+    width: 130px;
+    height: 400px;
+    color: black;
+    background-color: pink;
+}
+
+#div_1 {
+    background-color: darkgreen;
+    display: none;
+    height: 200px;
+}
+
+#div_2 {
+    background-color: chocolate;
+    display: none;
+    height: 200px;
+}
+
+#div_3 {
+    background-color: crimson;
+    display: none;
+    height: 200px;
+}
+
+#btn_1 {
+    margin-left: 600px;
+    color: white;
+    background-color: darkgreen;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#btn_2 {
+    margin-left: 200px;
+    color: white;
+    background-color: chocolate;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#btn_3 {
+    margin-left: 200px;
+    color: white;
+    background-color: crimson;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#div_1_1 {
+    background-color: crimson;
+    display: none;
+    height: 200px;
+}
+
+#div_2_2 {
+    background-color: rgb(173, 136, 143);
+    display: none;
+    height: 200px;
+}
+
+#div_3_3 {
+    background-color: rgb(0, 0, 0);
+    display: none;
+    height: 200px;
+}
+
+#btn_1_1 {
+    margin-left: 600px;
+    margin-top: 20px;
+    color: white;
+    background-color: grey;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#btn_2_2 {
+    margin-left: 200px;
+    color: white;
+    background-color: grey;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#btn_3_3 {
+    margin-left: 200px;
+    color: white;
+    background-color: grey;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.active {
+    color: white;
+    background-color: red !important;
+}

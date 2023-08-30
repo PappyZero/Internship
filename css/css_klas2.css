@@ -1,0 +1,166 @@
+.container
+{
+    width: 100%;
+    overflow: hidden;
+    /* color: brown; */
+    /* background-color: rgba(137, 43, 226, 0.192); */
+    border-width: 5px;
+    border-style: dotted;
+}
+
+.column
+{
+    /* color: darkgreen; */
+    box-sizing: border-box;
+    padding: 50px;
+    float: left;
+    /* background-color: blueviolet; */
+}
+
+.left
+{
+    color: darkgreen;
+    width: 30%;
+    height: 250px;
+    background-color: lightblue;
+    overflow: scroll;
+    /* overflow: hidden; */
+}
+
+.right
+{
+    width: 70%;
+    height: 250px;
+    background-color: lightgreen;
+    overflow: hidden;
+}
+
+.border_right
+{
+    height: 300px;
+    width: 200px;
+    border: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+.border_left
+{
+    width: 500px;
+    margin-top: 50px;
+    height: 400px;
+    padding: 10px;
+    overflow: scroll;
+    background-color: antiquewhite;
+}
+
+.contain
+{
+    width: 100%;
+    overflow: hidden;
+    /* color: brown; */
+    /* background-color: rgba(137, 43, 226, 0.192); */
+    border-width: 5px;
+    border-style: dotted;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column_left
+{
+    color: darkgreen;
+    width: 30%;
+    height: 150px;
+    background-color: lightblue;
+    /* overflow: scroll; */
+    box-sizing: border-box;
+    padding: 50px;
+    float: left;
+}
+
+.column_middle
+{
+    background-color: white;
+    width: 10%;
+    box-sizing: border-box;
+    padding: 50px;
+    float: left;
+}
+
+.column_right
+{
+    color: darkblue;
+    width: 60%;
+    height: 150px;
+    background-color: lightgreen;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 50px;
+    float: left;
+}
+
+.containing
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.item
+{
+    flex: 3;
+    min-width: 400px;
+    margin: 10px;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.pseudo p:nth-child(even)
+{
+    background-color: rgb(221, 126, 9);
+}
+
+/* .pseudo + p 
+{
+    background-color: yellow;
+}
+.pseudo ~ p
+{
+    color: red;
+}
+
+div > p
+{
+    background-color: rgb(175, 181, 235);
+}
+*/
+
+/* Greater than sign (>) is used to target within the tag while plus sign is used to select only one outside the tag, 
+likely the first one (+) and the recur_recur sign(~) is used to target outside the tag */
+
+.hov
+{
+    text-align: center;
+}
+
+.hov a 
+{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Sofia" sans-serif;
+    text-shadow: 3px 3px 3px grey;
+    color: black;
+}
+
+.hov a:hover
+{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Sofia" sans-serif;
+    text-shadow: 3px 3px 3px rgb(104, 26, 100);
+    color: rgb(201, 7, 226);
+}

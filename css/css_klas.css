@@ -1,0 +1,93 @@
+/* This is an identification of various css types. 
+   Every "id" makes use of (#) while every class makes use of (.) */
+/* The asteriks (*) is a universal selector used to select all the selectors present in the code/page */
+
+/*
+*
+{
+ background-color: aliceblue;
+}
+body
+{
+    background-color: aquamarine;
+}
+
+h1
+{
+    color: blue  /*!important;
+    The !important is used to tell the browser that this styling is more important than any other. 
+}
+*/
+
+/*
+h2
+{
+    color: rgb(11, 82, 82);
+}
+
+h3
+{
+    color: rgb(7, 17, 17);
+}
+
+h4
+{
+    color: blueviolet;
+}
+
+h5
+{
+    color: coral;
+}
+
+h6
+{
+    color: forestgreen;
+}
+*/
+
+.h-tags-bg-navy
+{
+    background-image: url("/image/3tU5kBx-death-note-l-wallpaper.jpg");
+    opacity: 0.3;
+    
+}
+
+#color-white
+{
+    color: black;
+}
+
+#h2-tag
+{
+    color: black;
+}
+
+#h3-tag
+{
+    color: black;
+}
+
+#h4-tag
+{
+    color: black;
+}
+
+#h5-tag
+{
+    color: black;
+}
+
+#h6-tag
+{
+    color: black;
+}
+
+.border
+{
+    border-style: double;
+    border-width: 20px;
+    height: 100%;
+    border-top: hidden;
+    border-radius: 30%;
+}

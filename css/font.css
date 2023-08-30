@@ -1,0 +1,48 @@
+header
+{
+    position: relative;
+    background-color: blueviolet;
+    width: 100%;
+}
+
+.navbar_s
+{
+    border: 100%;
+}
+
+.navbar_s ul
+{
+    list-style: none;
+    padding: 20px;
+}
+
+.navbar_s ul li
+{
+    display: inline;    
+}
+
+.navbar_s ul li a
+{
+    display: inline;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Sofia" sans-serif;
+    text-shadow: 3px 3px 3px grey;
+    color: black;
+}
+
+.navbar_s ul li:hover
+{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Sofia" sans-serif;
+    text-shadow: 3px 3px 3px rgb(104, 26, 100);
+    color: rgb(201, 7, 226);
+}
+
+.p-text
+{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}

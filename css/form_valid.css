@@ -1,0 +1,20 @@
+.navbar {
+    background-color: purple;
+    overflow: hidden;
+}
+
+.navbar a {
+    display: inline-block;
+    color: azure;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}

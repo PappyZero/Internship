@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous" />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/13d098a0cf.js"
+      crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="../css/javascript_klas.css" /> -->
+    <title>Document</title>
+    <style>
+      #mousehover {
+        margin-left: 800px;
+        width: 130px;
+        height: 50px;
+        color: black;
+        background-color: pink;
+      }
+
+      #one {
+        margin-left: 1000px;
+        width: 130px;
+        height: 400px;
+        color: black;
+        background-color: pink;
+      }
+
+      #div_1 {
+        background-color: darkgreen;
+        display: none;
+        height: 200px;
+      }
+
+      #div_2 {
+        background-color: chocolate;
+        display: none;
+        height: 200px;
+      }
+
+      #div_3 {
+        background-color: crimson;
+        display: none;
+        height: 200px;
+      }
+
+      #btn_1 {
+        margin-left: 600px;
+        color: white;
+        background-color: darkgreen;
+        padding: 15px;
+        border-radius: 15px;
+      }
+
+      #btn_2 {
+        margin-left: 200px;
+        color: white;
+        background-color: chocolate;
+        padding: 15px;
+        border-radius: 15px;
+      }
+
+      #btn_3 {
+        margin-left: 200px;
+        color: white;
+        background-color: crimson;
+        padding: 15px;
+        border-radius: 15px;
+      }
+
+      #div_1_1 {
+        background-color: crimson;
+        display: none;
+        height: 200px;
+      }
+
+      #div_2_2 {
+        background-color: rgb(173, 136, 143);
+        display: none;
+        height: 200px;
+      }
+
+      #div_3_3 {
+        background-color: rgb(0, 0, 0);
+        display: none;
+        height: 200px;
+      }
+
+      #btn_1_1 {
+        margin-left: 600px;
+        margin-top: 20px;
+        color: white;
+        background-color: grey;
+        padding: 15px;
+        border-radius: 15px;
+      }
+
+      #btn_2_2 {
+        margin-left: 200px;
+        color: white;
+        background-color: grey;
+        padding: 15px;
+        border-radius: 15px;
+      }
+
+      #btn_3_3 {
+        margin-left: 200px;
+        color: white;
+        background-color: grey;
+        padding: 15px;
+        border-radius: 15px;
+      }
+
+      .active {
+        color: white;
+        background-color: red !important;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="clicker()">Click Here</button>
+    <p id="button_p">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, quibusdam
+      ipsa distinctio aut quisquam nostrum soluta ducimus nihil neque quo, fugit
+      repellendus non ipsam. Debitis architecto libero rem. Excepturi,
+      repudiandae.
+    </p>
+    <div id="mousehover" onmouseover="mouse_hover()" onmouseout="mouse_out()">
+      On mouse Hover
+    </div>
+
+    <div id="one">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+      voluptatibus laboriosam ipsam cupiditate ullam. At vitae earum
+      consequuntur. Enim esse impedit quos non aliquid debitis possimus
+      blanditiis dolorum eos magnam?
+    </div>
+
+    <div class="container-fluid">
+      <button id="btn_1">Click Here</button>
+      <button id="btn_2">Click Here</button>
+      <button id="btn_3">Click Here</button>
+      <div id="div_1">.</div>
+      <div id="div_2">.</div>
+      <div id="div_3">.</div>
+    </div>
+
+    <div class="container-fluid">
+      <button id="btn_1_1">Click Here</button>
+      <button id="btn_2_2">Click Here</button>
+      <button id="btn_3_3">Click Here</button>
+      <div id="div_1_1">.</div>
+      <div id="div_2_2">.</div>
+      <div id="div_3_3">.</div>
+    </div>
+
+    <script src="../js/javascript_klas.js"></script>
+  </body>
+</html>
